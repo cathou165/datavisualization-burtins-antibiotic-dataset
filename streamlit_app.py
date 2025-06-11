@@ -118,7 +118,7 @@ st.markdown("""
 #### What Makes an Antibiotic Effective?
 
 Not all bacteria respond the same way to antibiotics — and one major factor is their **Gram stain type**.  
-This chart compares how **Penicillin**, **Streptomycin**, and **Neomycin** perform against 16 bacterial species, using calculated effectiveness scores and color to distinguish between **Gram-positive** (blue) and **Gram-negative** (orange) strains.
+This chart compares how **Penicillin**, **Streptomycin**, and **Neomycin** perform against 16 bacterial species, using calculated effectiveness scores and color to distinguish between **Gram-positive** (blue) and **Gram-negative** (orange) stains.
 """)
 
 st.markdown("""
@@ -154,7 +154,7 @@ if choice == "All":
         )
     with col3:
         st.markdown(
-            "<h6 style='text-align: center; font-weight: bold;'>Neomycin Performs Well Across Most Bacteria, Especially Gram-Negative Strains</h6>",
+            "<h6 style='text-align: center; font-weight: bold;'>Neomycin Performs Well Across Most Bacteria, Especially Gram-Negative Stains</h6>",
             unsafe_allow_html=True
         )
 
@@ -172,7 +172,7 @@ else:
     elif choice == "Streptomycin":
         chart_title = "Streptomycin Shows Moderate Effectiveness Across Both Gram Types, With Some Variation"
     elif choice == "Neomycin":
-        chart_title = "Neomycin Performs Well Across Most Bacteria, Especially Gram-Negative Strains"
+        chart_title = "Neomycin Performs Well Across Most Bacteria, Especially Gram-Negative Stains"
 
     st.markdown(
         f"<h6 style='text-align: center; font-weight: bold;'>{chart_title}</h6>",
@@ -201,7 +201,7 @@ elif choice == "Streptomycin":
     st.markdown("""
 - **Streptomycin** shows **moderate, broad-spectrum effectiveness**.
 - Some Gram-positive and Gram-negative species respond well, but resistance is noticeable.
-- It performs better than Penicillin on several Gram-negative strains. """)
+- It performs better than Penicillin on several Gram-negative stains. """)
 elif choice == "Neomycin":
     st.markdown("""
 - **Neomycin** has **broad-spectrum potency**, especially against **Gram-negative bacteria**.
